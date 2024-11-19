@@ -6,11 +6,11 @@ import "./index.css";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <HashRouter>
-      <App />
-  </HashRouter>
-);
-//   <BrowserRouter> {/* Wrap App with BrowserRouter here */}
-//     <App />
-//   </BrowserRouter>
-// )
+//   <HashRouter>
+//       <App />
+//   </HashRouter>
+// );
+  <BrowserRouter> {/* Wrap App with BrowserRouter here */}
+    <App />
+  </BrowserRouter>
+)
