@@ -10,7 +10,7 @@ createRoot(document.getElementById("root")).render(
 //       <App />
 //   </HashRouter>
 // );
-  <BrowserRouter basename="/Insta-Clone"> {/* Wrap App with BrowserRouter here */}
+  <BrowserRouter> {/* Wrap App with BrowserRouter here */}
     <App />
   </BrowserRouter>
 )
