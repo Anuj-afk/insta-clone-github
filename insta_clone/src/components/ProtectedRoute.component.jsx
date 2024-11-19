@@ -5,7 +5,7 @@ import { UserContext } from "../App";
 const ProtectedRoute = ({ children }) => {
     const { userAuth: {accessToken} } = useContext(UserContext);
 
-    return accessToken ? children : <Navigate to="/signin" />;
+    return accessToken ? children : <Navigate to="/insta-clone-github/signin" />;
 };
 
 export default ProtectedRoute;
