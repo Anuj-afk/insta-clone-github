@@ -73,7 +73,7 @@ const UserAuthForm = ({type}) => {
 
     return(
         accessToken?
-        <Navigate to="/"></Navigate>
+        <Navigate to="/insta-clone-github"></Navigate>
         :
         <AnimationWrapper keyValue={type}>
             <section className=" h-screen w-screen flex justify-center self-center bg-black text-white">
