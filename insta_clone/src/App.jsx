@@ -43,7 +43,7 @@ const App = () => {
         {/* <Route path="/" element={<Navigate to="/Insta-Clone/signin" />} />   */}
         
         {/* Main routes inside /Insta-Clone */}
-        <Route path="/insta-clone-github" element={<Navbar />}>
+        <Route path="/" element={<Navbar />}>
           {/* Home Page Route */}
           <Route index element={<HomePage />} />
           {/* Profile Page Route */}
@@ -51,8 +51,8 @@ const App = () => {
         </Route>
 
         {/* Authentication Routes */}
-        <Route path="/insta-clone-github/signin" element={<UserAuthForm type="sign-in" />} />
-        <Route path="/insta-clone-github/signup" element={<UserAuthForm type="sign-up" />} />
+        <Route path="/signin" element={<UserAuthForm type="sign-in" />} />
+        <Route path="/signup" element={<UserAuthForm type="sign-up" />} />
       </Routes>
     </UserContext.Provider>
   );
