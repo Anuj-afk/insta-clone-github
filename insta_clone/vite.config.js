@@ -10,5 +10,5 @@ export default defineConfig({
             },
         },
     },
-    base: "/Insta-clone/", // Ensure this matches your repository name
+    base: "/insta-clone-github/", // Ensure this matches your repository name
 });
